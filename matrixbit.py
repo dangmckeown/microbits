@@ -10,7 +10,7 @@ line3 = "00000"
 line4 = "00000"
 line5 = "00000"
 
-while True
+while True:
 #ie always
 
   #collate five lines into image
@@ -29,4 +29,4 @@ while True
   line2 = line1
   
   #...and introduce a funky new line at the top
-  line1 = str(random.randint(1,9) + random.randint(1,9) + random.randint(1,9) + random.randint(1,9) + random.randint(1,9))
+  line1 = str(random.randint(1,9)) + str(random.randint(1,9)) + str(random.randint(1,9)) + str(random.randint(1,9)) + str(random.randint(1,9))
